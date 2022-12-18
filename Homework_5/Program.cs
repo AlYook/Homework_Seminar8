@@ -1,12 +1,12 @@
 ﻿//Заполните спирально массив 4 на 4
 
-int[,] array = GetArrayMatrix(4);
+int[,] array = GetHelixMatrix(4);
 PrintArray(array);
-Console.WriteLine();
 
 
 
-int[,] GetArrayMatrix(int size)
+
+int[,] GetHelixMatrix(int size)
 {
     int n = 0;
     int[,] helix = new int[size, size];

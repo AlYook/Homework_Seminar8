@@ -4,7 +4,7 @@
 
 int[,,] array = GetArrayMatrix(4, 4, 4, 10, 100);
 PrintArray(array);
-Console.WriteLine();
+
 
 
 
